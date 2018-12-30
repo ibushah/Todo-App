@@ -1,0 +1,57 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+    .wrap
+{
+    
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)),url("../signup.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+color:aliceblue;
+ height:120vh;
+ position: relative;
+}
+.row
+{
+    margin-top:8%;
+}
+
+.navbar
+{
+  margin-bottom:0px;
+  border-radius: 0px; 
+}
+
+/* loaader */
+
+.loader {
+    border: 16px solid #909090;
+    border-radius: 50%;
+    border-top: 16px solid rgb(10, 1, 2);
+    width: 280px;
+    height: 280px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 35%;
+    transform: translate(-50,-50);
+    top:150px;
+    z-index:1;
+    display: none;
+  
+    
+  }
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

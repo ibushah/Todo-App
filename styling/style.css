@@ -1,0 +1,194 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+.navbar
+{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+#full
+{
+    
+ background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,.7)),url("../home.jpg");
+ background-size:cover;
+ background-repeat: no-repeat;
+ /* background-position: center; */
+ height:120vh;
+ position: relative;
+}
+#home
+{
+    
+    position: absolute;
+    top: 10%; 
+    left: 50%; 
+
+    transform: translate(-50%, -50%); 
+    text-shadow: 1px 1px white;
+color:white;
+}
+
+@media only screen and (max-width: 800px) {
+    #home {
+      font-size:16px;
+    }
+  }
+  @media only screen and (max-width: 530px) {
+    #home {
+      font-size:12px;
+    }
+  }
+
+/* input group  */
+
+.input-group
+{
+  margin-top:5% !important;
+  width:75%;
+  margin:0 auto;
+
+}
+#task
+{
+  height:45px;
+  text-indent: 2px;
+  font-size: 24px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+/* buttons styling */
+
+#buttons
+{
+  
+margin-left: 40%;
+margin-top:5px;
+}
+.big-btn
+{
+  width:20%;
+  text-align: center;
+}
+
+@media screen and (max-width:1000px)
+{
+  .big-btn{
+    font-size:12px;
+    width:25%;
+  }
+  .del_btn
+  {
+    display: none;
+  }
+  #ul_data li
+  {
+    font-size: 80% !important;
+  }
+  .i
+  {
+    display: inline !important;
+    font-size: 140%;
+    line-height: 30px;
+   
+  }
+ 
+  
+}
+@media screen and (max-width:680px)
+{
+  .big-btn
+  {
+    font-size:12px;
+    font-weight: bold;
+    width:38%;
+  }
+  #buttons
+{
+  
+margin-left: 22%;
+
+}
+
+
+}
+
+
+
+#ul_data li
+{
+  font-size: 8px;
+}
+/* ul styling   */
+
+#ul_data
+{
+  width:70%;
+  margin: 0 auto;
+  list-style: none;
+ 
+ 
+}
+#ul_data li
+{
+  background-color: rgb(34, 34, 34);
+  height: fit-content;
+  font-size: 110%;
+  line-height:30px;
+  text-indent: 5px;
+  color: white;
+  border-radius:5px;
+  width:100%;
+
+}
+.del_btn
+{
+ 
+  height: inherit;
+  border-radius: 0px;
+  
+  
+}
+
+
+/* glyphicon */
+
+.i
+{
+  display:none;
+}
+
+#d
+{
+ color: red;
+}
+#u
+{
+  color: blue;
+}
+
+#log_out
+{
+  display: none;
+}
+
+#img
+{
+  width: 10%;
+  margin-left: 45%;
+  
+}
+#h_name
+{
+  text-align: center;
+  color:white;
+ 
+}
+#upper
+{
+  margin-top:10px;
+}
+
