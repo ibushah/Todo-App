@@ -4,11 +4,17 @@
     padding:0;
 
 }
+
+/* navbar styling */
+
 .navbar
 {
     border-radius: 0px;
     margin-bottom: 0px;
 }
+
+/* body underneath navbar */
+
 #full
 {
     
@@ -18,6 +24,11 @@
  /* background-position: center; */
  height:120vh;
  position: relative;
+}
+
+#main
+{
+  display: none;
 }
 #home
 {
@@ -31,6 +42,9 @@
 color:white;
 }
 
+/* media queries */
+
+
 @media only screen and (max-width: 800px) {
     #home {
       font-size:16px;
@@ -41,6 +55,8 @@ color:white;
       font-size:12px;
     }
   }
+
+
 
 /* input group  */
 
@@ -55,8 +71,9 @@ color:white;
 {
   height:45px;
   text-indent: 2px;
-  font-size: 24px;
-  font-family: 'Times New Roman', Times, serif;
+  font-size:150%;
+  font-family: Arial, Helvetica, sans-serif;
+  
 
 }
 
@@ -95,9 +112,12 @@ margin-top:5px;
     line-height: 30px;
    
   }
+
+ 
  
   
 }
+
 @media screen and (max-width:680px)
 {
   .big-btn
@@ -111,6 +131,19 @@ margin-top:5px;
   
 margin-left: 22%;
 
+}
+#img
+{
+  width: 30% !important;
+  margin-left: 35% !important;
+  
+}
+
+#task
+{
+ 
+  font-size:85%;
+ 
 }
 
 
@@ -164,10 +197,15 @@ margin-left: 22%;
 #d
 {
  color: red;
+ cursor: pointer;
+ margin-left: 3%;
+ 
 }
 #u
 {
   color: blue;
+  cursor: pointer;
+  
 }
 
 #log_out
@@ -190,5 +228,10 @@ margin-left: 22%;
 #upper
 {
   margin-top:10px;
+}
+
+.nav li
+{
+  display: none;
 }
 

@@ -11,11 +11,17 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-sweetalert/1.0.1/sweetalert.min.css"></script>
+ 
   <link rel="stylesheet" href="./styling/style.css">
+  <link rel="manifest" href="./manifest.json">
+  
+  
 </head>
 
 <body>
 
+
+  <!-- navbar -->
 
   <div class="nav">
     <nav class="navbar navbar-inverse">
@@ -65,7 +71,7 @@
           <div class="form-group">
             <div class="input-group">
               <span class="input-group-addon"><i class="glyphicon glyphicon-list-alt"></i></span>
-              <input type="text" class="form-control" id="task" maxlength="50" autofocus>
+              <input type="text" class="form-control" id="task" maxlength="40" >
 
             </div>
             <div id="buttons">
@@ -76,15 +82,7 @@
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
           <div id="data">
             <ul id="ul_data">
-              <!-- <li>
-                djfmskfnffmfgdmfngkgmgnddmfjgkgmgkdnfngjgndjfjgn jbhojnkn
-                <i class="glyphicon glyphicon-remove pull-right i" id="d"></i>
-                <i class="glyphicon glyphicon-edit pull-right i" id="u"></i>
-                <button type="button" class="btn btn-sm btn-danger del_btn pull-right">Delete</button>
-                <button type="button" class="btn btn-sm btn-success del_btn pull-right">Update</button>
-
-              </li> -->
-
+              
 
 
 
@@ -97,6 +95,8 @@
     </div>
   </div>
   </div>
+
+  <!-- loader -->
 
 <div id="loader">
   
